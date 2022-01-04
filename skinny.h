@@ -1,6 +1,6 @@
 /**
  * @file skinny.h
- * @author Elias Hagelberg, 272628, (elias.hagelberg@tuni.fi)
+ * @author Elias Hagelberg
  * @brief This file contains the declaration for the cipher functions of
  * SKINNY-128-384 block cipher.
  * Cipher specs in section 2.3 of SKINNY-AEAD specification:
@@ -46,11 +46,6 @@ void shiftRows(unsigned char *IS);
  * @param IS Array containing the text to be ciphered 
  */
 void mixColumns(unsigned char *IS);
-
-/**
- * Implement the following API.
- * You can add your own functions above, but don't modify below this line.
- */
 
 /**
  * SKINNY-128-384 block cipher encryption.

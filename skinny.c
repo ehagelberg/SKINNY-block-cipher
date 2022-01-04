@@ -1,6 +1,6 @@
 /**
  * @file skinny.c
- * @author Elias Hagelberg, 272628, (elias.hagelberg@tuni.fi)
+ * @author Elias Hagelberg
  * @brief This file contains the definition for the cipher functions of
  * SKINNY-128-384 block cipher.
  * Cipher specs in section 2.3 of SKINNY-AEAD specification:
